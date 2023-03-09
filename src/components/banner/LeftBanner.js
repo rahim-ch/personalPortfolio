@@ -12,12 +12,11 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className="text-lg font-normal ">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi , I'm {""}
-          <span className="text-designColor capitalize">abd errahim</span>
+          Hi , I'm <span className="text-designColor capitalize">abd errahim</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span className="capitalize">{text} </span>
@@ -33,7 +32,7 @@ const LeftBanner = () => {
           to spruce things up, but doing it in ways that.
         </p>
       </div>
-      <div className="flex justify-between">
+      <div className="flex flex-col xl:flex-row justify-between gap-6 lgl:gap-0">
         <div>
           <h2 className="text-base font-titleFont uppercase mb-4">
             find me in

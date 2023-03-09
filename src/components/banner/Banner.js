@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="width-full   p-10 pb-20 flex items-center border-b-[1px] border-b-black font-titleFont
+      className="width-full  gap-10 xl:gap-0 p-10 pb-20 flex flex-col lgl:flex-row items-center border-b-[1px] border-b-black font-titleFont
   "
     >
       <LeftBanner />
@@ -15,4 +15,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Banner; 

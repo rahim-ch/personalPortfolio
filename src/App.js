@@ -11,9 +11,9 @@ import Testimonial from "./components/testimonial/Testimonial";
 
 function App() {
   return (
-    <div className="w-full h-auto bg-bodyColor text-lightText px-5 ">
+    <div className="w-full h-auto bg-bodyColor text-lightText px-4 ">
       <Navbar />
-      <div className="max-w-screen-2xl max-auto px-16">
+      <div className="max-w-screen-xl max-auto ">
         <Banner />
         <Features />
         <Projects />

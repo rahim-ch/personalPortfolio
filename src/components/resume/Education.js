@@ -7,13 +7,14 @@ const Education = () => {
     <motion.div
     initial={{opacity:0}}
     animate={{opacity:1,transition:{duration:.5}}}
-     className=" w-full flex gap-20" >
+     className=" w-full flex  flex-col lgl:flex-row gap-20" >
+      {/* part one */}
       <div >
-        </div>
-     <div className="py-12 font-title   ">
+        
+     <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4   ">
         <p className="text-sm text-designColor tracking-[4px]"> 2000 - 2018 </p>
-        <h2 className= " text-4xl font-bold capitalize">education quality</h2>
-      <div className="mt-14 w-full h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
+        <h2 className= " text-3xl md:text-4xl font-bold capitalize">education quality</h2>
+      <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
       <ResumeCard
             title="BSc in Computer Science"
             subTitle="University of DVI (2006 - 2010)"
@@ -35,10 +36,14 @@ const Education = () => {
           
       </div>
     </div>
-    <div className="py-12 font-title   ">
+        </div>
+         {/* part tow */}
+        <div>
+       
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4   ">
     <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
-      <div className="mt-14 w-full h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
+      <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
       <ResumeCard
         title="Sr. Software Engineer"
             subTitle="Google Out Tech - (2017 - Present)"
@@ -59,6 +64,9 @@ const Education = () => {
           />
           
       </div>
+        </div>
+    
+   
     </div>
     </motion.div>
   )
