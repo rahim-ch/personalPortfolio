@@ -21,7 +21,7 @@ function App() {
         <Testimonial />
         <Contact />
         <Footer />
-        <FooterBottuom/>
+        <FooterBottuom />
       </div>
     </div>
   );

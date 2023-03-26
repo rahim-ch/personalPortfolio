@@ -79,7 +79,7 @@ const Contact = () => {
                     Your name
                   </p>
                   <input
-                  onChange={(e) => setUsername(e.target.value)}
+                    onChange={(e) => setUsername(e.target.value)}
                     value={username}
                     className={`${
                       errMsg === "Username is required!" &&
@@ -100,7 +100,6 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="text"
-                    
                   />
                 </div>
               </div>

@@ -107,18 +107,19 @@ const Projects = () => {
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
         />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
+      <ProjectsCard
+  title="Weather App Example"
+  des="An example weather app built with React"
+  src={projectOne}
+  link="https://weather-app-example.vercel.app/"
+/>
+<ProjectsCard
+  title="Todo List Example"
+  des="An example todo list app built with React"
+  src={projectTwo}
+  link="https://todo-list-example.vercel.app/"
+/>
+
       </div>
     </section>
   );
