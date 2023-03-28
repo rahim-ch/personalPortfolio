@@ -10,16 +10,16 @@ function ContactLeft() {
               alt="contactImg"
             />
             <div className="flex flex-col gap-4">
-              <h3 className="text-3xl font-bold text-white">John Doe</h3>
+              <h3 className="text-3xl font-bold text-white">ABD ERRHIM </h3>
               <p className="text-lg font-normal text-gray-400">
-                MERN Stack Developer
+                REACT JS DEVELOPER
               </p>
               <p className="text-base text-gray-400 tracking-wide">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Facilis ipsam autem cumque, accusantium dicta odio.
               </p>
               <p className="text-base text-gray-400 flex items-center gap-2">
-                Phone: <span className="text-lightText">+968 97859628</span>
+                Phone: <span className="text-lightText">+213663131029</span>
               </p>
               <p className="text-base text-gray-400 flex items-center gap-2">
                 Email:
@@ -31,18 +31,20 @@ function ContactLeft() {
                 Find me in
               </h2>
               <div className="flex gap-4">
-                <span className="bannerIcon">
-                  <FaFacebookF />
-                </span>
-                <span className="bannerIcon">
-                  <FaTwitter />
-                </span>
-                <span className="bannerIcon">
-                  <FaLinkedinIn />
-                </span>
+  <a href="https://www.facebook.com/profile.php?id=100081266288406" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaFacebookF />
+  </a>
+  <a href="https://twitter.com/DzVassily" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaTwitter />
+  </a>
+  <a href="https://www.linkedin.com/in/abd-errahim-912785269/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaLinkedinIn />
+  </a>
+</div>
+
               </div>
             </div>
-          </div>
+          
   )
 }
 

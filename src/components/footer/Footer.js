@@ -5,17 +5,17 @@ const Footer = () => {
   return (
     <div className="w-full h-auto py-20  border-b-[1px] border-b-black grid grid-cols-1 md:gid-cols-1 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+        {/* <img className="w-32" src={logo} alt="logo" /> */}
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+        <a href="https://www.facebook.com/profile.php?id=100081266288406" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaFacebookF />
+  </a>
+  <a href="https://twitter.com/DzVassily" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaTwitter />
+  </a>
+  <a href="https://www.linkedin.com/in/abd-errahim-912785269/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+    <FaLinkedinIn />
+  </a>
         </div>
       </div>
       <div className="w-full h-full ">
