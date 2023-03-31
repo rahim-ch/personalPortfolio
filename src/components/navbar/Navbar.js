@@ -10,9 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full h-24 sticky top-0 z-50  bg-bodyColor justify-between flex mx-auto items-center border-b-[1px] border-b-gray-600">
-      <div>
-        {/* <img src={logo} alt="logo" /> */}
-      </div>
+      <div>{/* <img src={logo} alt="logo" /> */}</div>
       <div>
         <ul className=" hidden md:inline-flex  items-center gap-6 lgl:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
@@ -45,20 +43,23 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I am a beginner web developer, I am just starting my journey
+                  in the field of web development. I have some basic programming
+                  knowledge and am familiar with web development technologies
+                  such as HTML, CSS, and JavaScript. My primary goal at this
+                  stage is to gain practical experience and build a strong
+                  foundation of technical skills
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
-              {navLinksdata.map((item) => (
+                {navLinksdata.map((item) => (
                   <li
                     key={item._id}
                     onClick={() => setShowMenu(false)}
                     className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
                   >
                     <Link
-                     onClick={()=>setShowMenu (false) }
+                      onClick={() => setShowMenu(false)}
                       activeClass="active"
                       to={item.link}
                       spy={true}
@@ -66,7 +67,6 @@ const Navbar = () => {
                       offset={-70}
                       duration={500}
                     >
-                      
                       {item.title}
                     </Link>
                   </li>
