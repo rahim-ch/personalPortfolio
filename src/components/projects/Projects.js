@@ -67,7 +67,7 @@
 
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,travelAgency } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -84,10 +84,10 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="TRAVEL AGENCY"
+          des="I created a simple React app with a clean and modern design using Tailwind CSS. "
+          src={travelAgency}
+          link="https://travel-agency-hazel.vercel.app/"
         />
         <ProjectsCard
           title="E-commerce Website"
