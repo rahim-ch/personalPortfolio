@@ -90,10 +90,11 @@ const Projects = () => {
           link="https://travel-agency-hazel.vercel.app/"
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="OpenAI Article Summarizer"
+          des=" Summarizer Application using OpenAI's GPT model"
           src={projectTwo}
+          link="https://taupe-naiad-5edf7d.netlify.app/"
+
         />
         <ProjectsCard
           title="Chatting App"
